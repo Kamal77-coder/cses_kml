@@ -26,6 +26,7 @@ void solve()
     
     for(int i= 1;i<=n ;i++)
       cout<<--dp[i]<<" "; //we have to exclude the individual employee in subordinate  count
+    //number of subordinates are equal to number of nodes in subtree of a node -1 
 }
 void set1()
 {
